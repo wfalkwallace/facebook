@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		229EA2061A8C0F7500567410 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2051A8C0F7500567410 /* AppDelegate.swift */; };
-		229EA2081A8C0F7500567410 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2071A8C0F7500567410 /* ViewController.swift */; };
 		229EA20B1A8C0F7500567410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229EA2091A8C0F7500567410 /* Main.storyboard */; };
 		229EA20D1A8C0F7500567410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229EA20C1A8C0F7500567410 /* Images.xcassets */; };
 		229EA2101A8C0F7500567410 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229EA20E1A8C0F7500567410 /* LaunchScreen.xib */; };
 		229EA21C1A8C0F7500567410 /* FacebookDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA21B1A8C0F7500567410 /* FacebookDemoSwiftTests.swift */; };
+		229EA2271A8C0FD500567410 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2261A8C0FD500567410 /* MainViewController.swift */; };
+		229EA2291A8C0FDE00567410 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EA2281A8C0FDE00567410 /* LoginViewController.swift */; };
+		AA3BD3751A8C551A00969D99 /* StatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BD3741A8C551A00969D99 /* StatusCell.swift */; };
+		AA3BD3771A8C552900969D99 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3BD3761A8C552900969D99 /* PhotoCell.swift */; };
+		AABEC8331A8C66AB00AEC821 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEC8321A8C66AB00AEC821 /* SettingsTableViewCell.swift */; };
+		AABEC8351A8C67FC00AEC821 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABEC8341A8C67FC00AEC821 /* SettingsTableViewController.swift */; };
+		B96A2F0A62CD49DC8578F778 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0617C99C97214D66B3FCA0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,22 @@
 		229EA2001A8C0F7500567410 /* FacebookDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229EA2041A8C0F7500567410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229EA2051A8C0F7500567410 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		229EA2071A8C0F7500567410 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		229EA20A1A8C0F7500567410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		229EA20C1A8C0F7500567410 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		229EA20F1A8C0F7500567410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		229EA2151A8C0F7500567410 /* FacebookDemoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookDemoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229EA21A1A8C0F7500567410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229EA21B1A8C0F7500567410 /* FacebookDemoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookDemoSwiftTests.swift; sourceTree = "<group>"; };
+		229EA2261A8C0FD500567410 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		229EA2281A8C0FDE00567410 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		229EA22A1A8C101800567410 /* FacebookDemoSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FacebookDemoSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		9E0617C99C97214D66B3FCA0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3BD3741A8C551A00969D99 /* StatusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCell.swift; sourceTree = "<group>"; };
+		AA3BD3761A8C552900969D99 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		AABEC8321A8C66AB00AEC821 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		AABEC8341A8C67FC00AEC821 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		CAE1F610D2902AD8300C0556 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FA13850E318BABA9DE9D1E19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96A2F0A62CD49DC8578F778 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,8 @@
 				229EA2021A8C0F7500567410 /* FacebookDemoSwift */,
 				229EA2181A8C0F7500567410 /* FacebookDemoSwiftTests */,
 				229EA2011A8C0F7500567410 /* Products */,
+				6B3D51AC10F3F6AC5712400F /* Pods */,
+				FB5E7F22031A740895448F82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +95,14 @@
 		229EA2021A8C0F7500567410 /* FacebookDemoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				AA3BD3781A8C552D00969D99 /* TableView Cells */,
+				229EA2251A8C0FC900567410 /* View Controllers */,
 				229EA2051A8C0F7500567410 /* AppDelegate.swift */,
-				229EA2071A8C0F7500567410 /* ViewController.swift */,
 				229EA2091A8C0F7500567410 /* Main.storyboard */,
 				229EA20C1A8C0F7500567410 /* Images.xcassets */,
 				229EA20E1A8C0F7500567410 /* LaunchScreen.xib */,
 				229EA2031A8C0F7500567410 /* Supporting Files */,
+				229EA22A1A8C101800567410 /* FacebookDemoSwift-Bridging-Header.h */,
 			);
 			path = FacebookDemoSwift;
 			sourceTree = "<group>";
@@ -112,6 +132,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		229EA2251A8C0FC900567410 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				229EA2261A8C0FD500567410 /* MainViewController.swift */,
+				AABEC8341A8C67FC00AEC821 /* SettingsTableViewController.swift */,
+				229EA2281A8C0FDE00567410 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6B3D51AC10F3F6AC5712400F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA13850E318BABA9DE9D1E19 /* Pods.debug.xcconfig */,
+				CAE1F610D2902AD8300C0556 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA3BD3781A8C552D00969D99 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BD3741A8C551A00969D99 /* StatusCell.swift */,
+				AABEC8321A8C66AB00AEC821 /* SettingsTableViewCell.swift */,
+				AA3BD3761A8C552900969D99 /* PhotoCell.swift */,
+			);
+			name = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		FB5E7F22031A740895448F82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0617C99C97214D66B3FCA0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 229EA21F1A8C0F7500567410 /* Build configuration list for PBXNativeTarget "FacebookDemoSwift" */;
 			buildPhases = (
+				7468A51AAA5005AB4AEBB5AC /* Check Pods Manifest.lock */,
 				229EA1FC1A8C0F7500567410 /* Sources */,
 				229EA1FD1A8C0F7500567410 /* Frameworks */,
 				229EA1FE1A8C0F7500567410 /* Resources */,
+				F64903192468EBA3E037B94E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +266,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7468A51AAA5005AB4AEBB5AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F64903192468EBA3E037B94E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		229EA1FC1A8C0F7500567410 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229EA2081A8C0F7500567410 /* ViewController.swift in Sources */,
+				229EA2291A8C0FDE00567410 /* LoginViewController.swift in Sources */,
+				AA3BD3771A8C552900969D99 /* PhotoCell.swift in Sources */,
+				AABEC8331A8C66AB00AEC821 /* SettingsTableViewCell.swift in Sources */,
 				229EA2061A8C0F7500567410 /* AppDelegate.swift in Sources */,
+				229EA2271A8C0FD500567410 /* MainViewController.swift in Sources */,
+				AA3BD3751A8C551A00969D99 /* StatusCell.swift in Sources */,
+				AABEC8351A8C67FC00AEC821 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,21 +431,28 @@
 		};
 		229EA2201A8C0F7500567410 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA13850E318BABA9DE9D1E19 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FacebookDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookDemoSwift/FacebookDemoSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		229EA2211A8C0F7500567410 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE1F610D2902AD8300C0556 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = FacebookDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FacebookDemoSwift/FacebookDemoSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +509,7 @@
 				229EA2211A8C0F7500567410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		229EA2221A8C0F7500567410 /* Build configuration list for PBXNativeTarget "FacebookDemoSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +518,7 @@
 				229EA2241A8C0F7500567410 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

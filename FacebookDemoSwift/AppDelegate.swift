@@ -16,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        var activeSession = FBSession.activeSession()
+        
+        if (FBSession.activeSession().state == FBSessionState.CreatedTokenLoaded) {
+            
+            FBSession.openActiveSessionWithReadPermissions(["public_profile", "read_stream", "user_photos"], allowLoginUI: false, completionHandler: { (session: FBSession!, state: FBSessionState, error: NSError!) -> Void in
+                
+            })
+            
+            var storyboard = UIStoryboard(name: "Main", bundle: nil)
+            var vc = storyboard.instantiateViewControllerWithIdentifier("MainNavigationController") as! UIViewController
+            self.window?.rootViewController = vc
+        }
+        
         return true
     }
 
@@ -40,7 +54,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        return FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+    }
 
 }
 
